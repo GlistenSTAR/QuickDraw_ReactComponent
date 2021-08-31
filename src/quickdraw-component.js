@@ -54,14 +54,14 @@ const QuickDrawElement = DeferUntilConnected(class extends LitElement {
   constructor() {
     super();
     this.category = null;
-    this.key = "AIzaSyBzQRKdQYkoaBP8U-rqq_ISXDVxeamY7-I";
+    this.key = "your google api key";
     this.index = -1;
     this.width = 'auto';
     this.height = 'auto';
     this.strokeWidth = 4;
     this.strokeColor = '#000000';
     this.speed = 0.5;
-    this.host = 'https://hardy-ivy-322720.rj.r.appspot.com';
+    this.host = 'your google project name(url)';
     this.imageData = null;
     this.animated = false;
     this.debug = false;
